@@ -2,8 +2,6 @@
 
 Automação de teclado desenvolvida em Python para executar uma sequência repetitiva de teclas **A + D** e **E**, com temporização controlada e repetição contínua.
 
-> **Nota:** este repositório documenta o comportamento implementado no código. O arquivo original não informa qual aplicação ou processo externo motivou a automação.
-
 ## Funcionalidades
 
 - Pressionamento automatizado das teclas `A` e `D`.
@@ -20,25 +18,6 @@ Automação de teclado desenvolvida em Python para executar uma sequência repet
 - `keyboard`
 - `time`
 - `random`
-
-## Estrutura do projeto
-
-```text
-automacao-teclas-python/
-├── .github/
-│   └── ISSUE_TEMPLATE/
-│       └── bug_report.md
-├── docs/
-│   └── DOCUMENTACAO.md
-├── src/
-│   └── automacao.py
-├── .gitignore
-├── CONTRIBUTING.md
-├── LICENSE
-├── README.md
-├── requirements.txt
-└── SECURITY.md
-```
 
 ## Instalação
 
@@ -147,12 +126,6 @@ Ctrl + C
 - Separar configurações da lógica principal.
 - Adicionar testes automatizados para as partes que não dependem diretamente do teclado.
 - Adicionar documentação de compatibilidade por sistema operacional.
-
-## Documentação
-
-A documentação técnica detalhada está disponível em:
-
-[`docs/DOCUMENTACAO.md`](docs/DOCUMENTACAO.md)
 
 ## Aviso
 
